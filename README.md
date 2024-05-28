@@ -17,7 +17,7 @@ Se enfoca en dar a conocer un poco sobre mí y mis interes, con diseño responsi
 + **Google Fonts:** Para fuentes personalizadas.
 
 ### Vista Previa del Proyecto
-![Demo](imagenes/pinteres.png)
+![Demo](imagenes/me.png)
 
 ### Contacto
 Si te gustaría invitarme a colaborar en un proyecto, escríbeme por [Linkedln](https://www.linkedin.com/in/liioh/).
