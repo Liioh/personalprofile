@@ -1,0 +1,240 @@
+/*FUENTE DE GOOGLE FORMS*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*VARIABLES*/
+:root{
+    --font-family: "Montserrat", sans-serif;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #0e642e;
+    --secondary-color: #b8ce0c;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("https://img.freepik.com/fotos-premium/pintura-campo-girasoles-sol-cielo_445384-54.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover{
+    color: var(--secondary-color);
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+/*navbar*/
+
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #cee3be;
+    
+}
+
+nav h1{
+    color: var(--primary-color);
+}
+
+nav a{
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+nav a:hover{
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul{
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li{
+    font-weight: var(--bold-font);
+}
+
+/* ACERCA DE MI*/
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.hero img{
+    background-color: #b8d04b;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px;
+    height: 25rem;
+}
+.bio-title{
+    padding-block-start: 50px;
+    text-align: center;
+}
+
+.bio-text{
+    text-align: center;
+    background-color: white;
+    width: 90rem;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.bio h1{
+  
+    margin-bottom: var(--bottom-margin);
+}
+
+.bio p{
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+    margin-bottom: 3rem;
+}
+
+/* MASCOTA FAVORITA*/
+
+.mascotafav{
+    /*background-color: #fcfcfc;*/
+    padding: 1rem 6rem;
+}
+
+.mas-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.imag-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ima-container{
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.ima-container{
+    padding: 0.4rem;
+}
+
+/*ajustar imagenes*/
+.mas-pic{
+    width: 70%;
+}
+
+/*para darle formato*/
+.ima-card{
+    background-color: #708138;
+    border-radius: 11px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*LIBROS*/
+
+.lib-ros{
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+/*ajustar imagenes*/
+.libros-pic{
+    width: 60%;
+}
+
+.libro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-libro{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container-lib{
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.container-lib{
+    padding: 0.4rem;
+}
+
+.titlelib{
+    margin-bottom: var(--bottom-margin);
+}
+
+.lib-details{
+    margin-bottom: var(--bottom-margin);
+}
+
+.libro-card{
+    background-color: #b8d04b;
+    border-radius: 11px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* BOTON SOCIAL*/ 
+.socials{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socicon{
+    width: 5rem;
+    height: 5rem;
+}
+
+footer{
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
